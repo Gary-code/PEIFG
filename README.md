@@ -39,7 +39,7 @@ cd PEIFG
 
 Our VCR-DF dataset reuse the images from the official VCR dataset. You can download in [VCR](https://visualcommonsense.com/).
 
-The annotation of our VCR-DF dataset is in `./vcr_dataset` folder.
+The annotation of our VCR-DF dataset is in `./vcr_df_dataset` folder.
 
 ### Train
 
