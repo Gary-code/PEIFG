@@ -1,9 +1,10 @@
 # <b>Learning to Correction</b>: Explainable Feedback Generation for Visual Commonsense Reasoning Distractor
 [Jiali Chen](https://github.com/Gary-code)<sup>1</sup>, [Xusen Hei]()<sup>1</sup>, [Yuqi Xue]()<sup>1</sup>, [Yuancheng Wei](https://github.com/wyclike)<sup>1</sup>, [Jiayuan Xie](https://scholar.google.com/citations?hl=zh-CN&user=yZOXh24AAAAJ&view_op=list_works&sortby=pubdate)<sup>2</sup>, [Yi Cai](https://scholar.google.com.hk/citations?hl=zh-CN&user=ej3Nb5wAAAAJ&view_op=list_works&sortby=pubdate)<sup>*,1</sup> [Qing Li](https://scholar.google.com/citations?user=D1LEg-YAAAAJ&hl=en)<sup>2</sup>
 
-<p><sup>1</sup>South China University of Technology &nbsp;&nbsp;<sup>2</sup>The Hong Kong Polytechnic &nbsp;&nbsp;
+<p><sup>1</sup>South China University of Technology &nbsp;&nbsp;<sup>2</sup>The Hong Kong Polytechnic University &nbsp;&nbsp;
 <br><sup>*</sup>Corresponding author &nbsp;&nbsp;
 <h5 align="center">
+
 
 [![paper](https://img.shields.io/badge/paper-pink?style=plastic&logo=GitBook)](https://dl.acm.org/doi/abs/10.1145/3664647.3681590)
 
