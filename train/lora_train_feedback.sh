@@ -1,0 +1,16 @@
+deepspeed --include="localhost:0" train_lora.py\
+  --deepspeed ./zero_config/zero2.json \
+  --model_name_or_path ./peifg \
+  --vision_tower ./pre-trained/clip-vit-large-patch14 \
+  --freeze_vision_tower True --freeze_lm_model True \
+  --vision_select_layer -2 --use_im_start_end True --bf16 True\
+   --per_device_eval_batch_size 16 --gradient_accumulation_steps 1 \
+   --evaluation_strategy no --save_strategy steps --save_steps 1000 \
+   --save_total_limit 2 --weight_decay 0. --warmup_ratio 0.03 \
+   --lr_scheduler_type cosine --logging_steps 1 --tf32 True \
+   --model_max_length 850 --gradient_checkpointing True \
+   --fp16 False --conversation_version opt \
+   --dataloader_num_workers 8 --report_to wandb --per_device_train_batch_size 16 \
+   --num_train_epochs 4 --learning_rate 8e-5 --datasets mydataset --datasets_eval mydataset_eval\
+    --expert_token_len 15   \
+    --output_dir peifg-feedback/
