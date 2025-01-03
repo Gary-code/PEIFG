@@ -6,7 +6,7 @@
 <h5 align="center">
 
 
-[![paper](https://img.shields.io/badge/paper-pink?style=plastic&logo=GitBook)](https://dl.acm.org/doi/abs/10.1145/3664647.3681590)
+[![arXiv](https://img.shields.io/badge/Arxiv-2412.07801-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2412.07801)
 
 </h5>
 
